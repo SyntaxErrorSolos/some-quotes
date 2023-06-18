@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
 
 // <<--------- QUOTES ---------->>
 app.get("/quote", (req, res) => {
-  const quotes = require("./src/qoutes.json");
+  const quotes = require("./qoutes.json");
   const quotes_length = quotes.length;
   const randomizer = Math.floor(Math.random() * quotes_length);
   const random_quote = quotes[randomizer];
