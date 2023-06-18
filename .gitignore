@@ -1,6 +1,4 @@
 /node_modules
-/src/.env
+.env
 /.vercel
-/api/node_modules
-/src/node_modules
 .vercel
