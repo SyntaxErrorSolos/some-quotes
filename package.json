@@ -6,6 +6,6 @@
   "type": "commonjs",
   "scripts": {
     "start": "node src/index.js",
-    "vercel-build": "echo app started"
+    "vercel-build": "echo hello"
   }
 }

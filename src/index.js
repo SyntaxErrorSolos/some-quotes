@@ -19,4 +19,4 @@ app.get("/quote", (req, res) => {
   res.json({ quote: random_quote });
 });
 
-module.exports = app;
+export default app;
