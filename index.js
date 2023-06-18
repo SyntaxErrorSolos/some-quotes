@@ -2,8 +2,9 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-app.listen(5000);
+app.listen(3000)
 app.use(cors());
+console.log("App started")
 
 // <<--------- BASIC ---------->>
 app.get("/", (req, res) => {
@@ -12,7 +13,7 @@ app.get("/", (req, res) => {
 
 // <<--------- QUOTES ---------->>
 app.get("/quote", (req, res) => {
-  const quotes = require("./qoutes.json");
+  const quotes = require("./src/qoutes.json");
   const quotes_length = quotes.length;
   const randomizer = Math.floor(Math.random() * quotes_length);
   const random_quote = quotes[randomizer];
