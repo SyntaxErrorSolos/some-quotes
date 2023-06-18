@@ -1,0 +1,13 @@
+{
+  "name": "some-quotes",
+  "version": "1.0.0",
+  "description": "An API to provide quotes",
+  "main": "",
+  "repository": "https://github.com/SyntaxErrorSolos/some-quotes.git",
+  "author": "Bodyfa",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
