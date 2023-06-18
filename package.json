@@ -2,10 +2,9 @@
   "name": "some-quotes",
   "version": "1.0.1",
   "description": "An API to fetch quotes",
-  "main": "index.js",
+  "main": "src/index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node src/index.js",
-    "vercel-build": "echo hello"
+    "start": "node src/index.js"
   }
 }
