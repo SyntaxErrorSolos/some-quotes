@@ -2,7 +2,7 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-app.listen(3000)
+app.listen(process.env.PORT || 8080)
 app.use(cors());
 console.log("App started")
 
