@@ -7,10 +7,17 @@ An API to fetch quotes by sending a GET request.
 
 ## API Reference
 
-#### Get all items
+#### Get quote
 
 ```http
   GET /quote
+```
+
+
+#### Get Fact
+
+```http
+  GET /fact
 ```
 
 
